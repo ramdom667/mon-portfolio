@@ -1,3 +1,6 @@
+<script>
+  import { base } from '$app/paths';
+</script>
 <div class="max-w-4xl mx-auto">
   <div class="mb-12 text-center">
     <h1 class="text-4xl font-bold mb-4">CTFd</h1>
@@ -16,7 +19,7 @@
         <li><strong>Rôle :</strong> Administrateur Système</li>
       </ul>
     </div>
-    <img src="/ctfd-acceuil.png" alt="CTFd Accueil" class="rounded-lg shadow-lg w-full object-cover">
+    <img src="{base}/ctfd-acceuil.png" alt="CTFd Accueil" class="rounded-lg shadow-lg w-full object-cover">
   </div>
 
   <div class="bg-gray-100 dark:bg-gray-800 p-8 rounded-lg mb-12">

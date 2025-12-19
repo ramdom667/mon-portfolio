@@ -1,7 +1,10 @@
+<script>
+  import { base } from '$app/paths';
+</script>
 <section class="grid lg:grid-cols-12 gap-12">
   <div class="lg:col-span-4 text-center">
     <img
-      src="/profil.png"
+      src="{base}/profil.png"
       alt="Omer Tilki"
       class="w-full max-w-xs mx-auto rounded-lg shadow-xl"
     >
