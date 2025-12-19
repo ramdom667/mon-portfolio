@@ -4,27 +4,27 @@
   import LangToggle from '$lib/components/LangToggle.svelte';
   import { page } from '$app/stores';
 
-  // Liste des pages
   const navLinks = [
-    { href: '/', text: 'Accueil' },
-    { href: '/ethan', text: 'Ethan' },
-    { href: '/trains', text: 'Trains' },
-    { href: '/ctfd', text: 'CTFd' },
-    { href: '/competences', text: 'Compétences' },
-    { href: '/a-propos', text: 'À Propos' },
+    { href: `${base}/`, text: 'Accueil' },
+    { href: `${base}/ethan`, text: 'Ethan' },
+    { href: `${base}/trains`, text: 'Trains' },
+    { href: `${base}/ctfd`, text: 'CTFd' },
+    { href: `${base}/competences`, text: 'Compétences' },
+    { href: `${base}/a-propos`, text: 'À Propos' },
   ];
 </script>
 
-<nav class="fixed top-0 left-0 right-0 z-50 bg-gray-50/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
+<nav
+  class="fixed top-0 left-0 right-0 z-50 bg-gray-50/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
   <div class="container mx-auto max-w-5xl px-6 py-4">
     <div class="flex justify-between items-center">
 
-      <a href="/" class="text-xl font-bold tracking-tight hover:text-blue-600 transition-colors">
+      <a href="{base}/" class="text-xl font-bold tracking-tight hover:text-blue-600 transition-colors">
         Omer Tilki
       </a>
 
       <div class="hidden md:flex space-x-6">
-        {#each navLinks as link}
+        {#each navLinks as link (link.href)}
           <a
             href={link.href}
             class="text-sm font-medium {$page.url.pathname === link.href
