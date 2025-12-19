@@ -41,7 +41,7 @@
 
   <div class="lg:w-1/3 flex-shrink-0">
     <img
-      src="/profil2.jpg"
+      src="{base}/profil2.jpg"
       alt="Omer Tilki"
       class="w-64 h-64 lg:w-80 lg:h-80 object-cover rounded-full shadow-lg mx-auto"
     >
