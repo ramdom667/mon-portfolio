@@ -1,4 +1,5 @@
 <script>
+  import { base } from '$app/paths';
   import ThemeToggle from '$lib/components/ThemeToggle.svelte';
   import LangToggle from '$lib/components/LangToggle.svelte';
   import { page } from '$app/stores';
