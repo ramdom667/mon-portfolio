@@ -3,7 +3,7 @@
 
   const techStack = [
     { name: 'Java', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg' },
-    { name: 'JavaFX', logo: 'https://raw.githubusercontent.com/luca-fabbian/devicons/master/icons/javafx/javafx-original.svg' },
+    { name: 'JavaFX', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg' },
     { name: 'Maven', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg' }
   ];
 </script>
@@ -62,7 +62,6 @@
           </div>
         </div>
         <code class="text-blue-300 text-xs font-mono">
-          // Implémentation du parcours de graphe pour la connectivité des gares<br>
           public List&lt;Tuile&gt; calculerCheminPlusCourt(Gare source, Gare cible) &#123; ... &#125;
         </code>
       </div>

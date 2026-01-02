@@ -9,7 +9,6 @@
     { href: `${base}/ethan`, text: 'Ethan' },
     { href: `${base}/trains`, text: 'Trains' },
     { href: `${base}/ctfd`, text: 'CTFd' },
-    { href: `${base}/competences`, text: 'Compétences' },
     { href: `${base}/a-propos`, text: 'À Propos' },
   ];
 </script>
