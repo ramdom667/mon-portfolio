@@ -54,15 +54,15 @@
   </h2>
 
   <div class="grid md:grid-cols-3 gap-8">
-    <a href="/ethan" class="block p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow dark:border border-gray-700">
+    <a href="{base}/ethan" class="block p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow dark:border border-gray-700">
       <h3 class="text-2xl font-bold mb-2">La légende d’Éthane</h3>
       <p class="text-gray-600 dark:text-gray-400">Un premier jeu vidéo crée avec passion en C# et Unity.</p>
     </a>
-    <a href="/trains" class="block p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow dark:border border-gray-700">
+    <a href="{base}/trains" class="block p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow dark:border border-gray-700">
       <h3 class="text-2xl font-bold mb-2">Trains</h3>
       <p class="text-gray-600 dark:text-gray-400">Adaptation numérique d'un jeu de société japonais en Java/JavaFX.</p>
     </a>
-    <a href="/ctfd" class="block p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow dark:border border-gray-700">
+    <a href="{base}/ctfd" class="block p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow dark:border border-gray-700">
       <h3 class="text-2xl font-bold mb-2">CTFd</h3>
       <p class="text-gray-600 dark:text-gray-400">Création d'un "Capture The Flag" avec Docker, Flask et MariaDB.</p>
     </a>
