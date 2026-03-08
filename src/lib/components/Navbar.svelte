@@ -12,6 +12,7 @@
     { href: `${base}/trains`, text: 'Trains' },
     { href: `${base}/ctfd`, text: 'CTFd' },
     { href: `${base}/a-propos`, text: 'À Propos' },
+    { href: `${base}/competences`, text: 'Compétences' },
   ];
 
   function toggleMenu() {
